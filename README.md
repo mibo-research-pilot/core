@@ -42,7 +42,7 @@ archive.
 
 ## Latest writing
 
-[Day 1 at MIBO: What 4 Generative AIs Cite When You Ask the Same Question](https://mibo.substack.com/p/day-1-at-mibo)
+[Day 1 at MIBO: What 4 Generative AIs Cite When You Ask the Same Question](https://open.substack.com/pub/miboscience/p/day-1-at-mibo-what-4-generative-ais)
 
 ---
 

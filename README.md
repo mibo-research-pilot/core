@@ -40,6 +40,10 @@ If you use MIBO data in research, please cite:
 Observation compounds. Today's record becomes tomorrow's irreplaceable
 archive.
 
+## Latest writing
+
+[Day 1 at MIBO: What 4 Generative AIs Cite When You Ask the Same Question](https://mibo.substack.com/p/day-1-at-mibo)
+
 ---
 
 **MIBO（機械情報行動観測所）は、2026年5月5日に観測を開始しました。**

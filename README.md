@@ -1,4 +1,4 @@
-# MIBO — Machine Information Behaviour Observatory
+# MIBO — Machine Information Behavior Observatory
 ## 機械情報行動観測所
 
 **Observation began: 2026-05-05**
@@ -7,42 +7,38 @@ MIBO is a research observatory dedicated to the long-term, systematic study
 of how machines retrieve, select, communicate, and forget information about
 the world.
 
-We are founding a new empirical science — **Machine Behavioural Sciences** —
+We are founding a new empirical science — **Machine Behavioral Sciences** —
 with **Longitudinal Machine Observation (LMO)** as its core methodology.
 MIBO is the first permanent observation facility of this science.
 
-## Our First Research Programme
+## Our First Research Program
 
-Citation behaviour in generative AI systems.
+Citation behavior in generative AI systems.
 
 Who gets cited? Whose voices are amplified, and whose are forgotten?
 How do these patterns shift over time as models evolve?
 
-We record machine responses to a standardised query set on weekly,
+We record machine responses to a standardized query set on weekly,
 monthly, and quarterly cycles. All data is open. All methodology is
 reproducible. All findings are shared with the public.
 
 ## Repositories
 
 - `core/` — Observation SDK and methodology documentation
-- `queries/` — The standardised query set (versioned)
+- `queries/` — The standardized query set (versioned)
 - `reports/` — Raw observation data and quarterly reports
 
 ## Citation
 
 If you use MIBO data in research, please cite:
 
-> MIBO (Machine Information Behaviour Observatory). Observation series
+> MIBO (Machine Information Behavior Observatory). Observation series
 > 2026-present. https://mibo.science
 
 ## Mission
 
 Observation compounds. Today's record becomes tomorrow's irreplaceable
 archive.
-
-## Latest writing
-
-[Day 1 at MIBO: What 4 Generative AIs Cite When You Ask the Same Question](https://open.substack.com/pub/miboscience/p/day-1-at-mibo-what-4-generative-ais)
 
 ---
 

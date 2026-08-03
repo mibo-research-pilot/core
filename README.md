@@ -1,104 +1,146 @@
 # MIBO — Machine Information Behavior Observatory
 
 **Japanese name:** 機械情報行動観測所  
-**Observation began:** 2026-05-05  
 **Parent domain:** Machine Behavioral Sciences  
 **Specialized field:** Machine Information Behavioral Sciences  
 **Core methodology:** Longitudinal Machine Observation (LMO)  
-**Initial research focus:** source-attribution and citation-like behavior in generative AI systems
+**Observation began:** 2026-05-05
 
-MIBO is an open research observatory for studying how generative AI systems retrieve, select, cite, recommend, omit, synthesize, transmit, and forget information over time.
+MIBO is an open research observatory for studying how public generative-AI services retrieve, select, cite, rank, recommend, omit, synthesize, transmit, and forget information over time.
+
+---
+
+## Current program stage
+
+### MIBO Pilot — Developmental Observation Phase
+
+Records collected before 1 September 2026 belong to the **MIBO Pilot**.
+
+The Pilot is exploratory and developmental. It is used for:
+
+- query and coding development;
+- longitudinal hypothesis generation;
+- claim-management practice;
+- metadata and provenance design;
+- feasibility assessment;
+- automation development;
+- historical documentation.
+
+Pilot “laws” are corrigible longitudinal findings, not universal laws of nature and not confirmatory MIBO 1.0 results.
+
+See [`laws.md`](./laws.md).
+
+### MIBO Core Observatory v1.0
+
+The planned registered program begins on 1 September 2026.
+
+The release-candidate design defines MIBO as a survey-methodological generative-AI sentinel panel with:
+
+- persistent public-service lineage panel units;
+- version-controlled fixed query instruments;
+- synchronized survey waves;
+- parallel Live and Frozen observational lines where defensible;
+- ten independent within-cell replications;
+- multisite calibration;
+- generalizability-theoretic re-observability;
+- an international mirror-observatory network;
+- preregistered claim and correction procedures.
+
+Pilot records are not automatically pooled into the primary confirmatory MIBO 1.0 analysis.
+
+---
+
+## Repository role
+
+The `core` repository contains:
+
+- field and observatory definitions;
+- methodology;
+- governance;
+- claim-status registry;
+- hierarchy and terminology;
+- schemas and future software documentation.
+
+Related repositories:
+
+- [`mibo-science/queries`](https://github.com/mibo-science/queries) — versioned Pilot queries and future fixed instruments;
+- [`mibo-science/reports`](https://github.com/mibo-science/reports) — raw and reviewed observation records.
+
+---
+
+## Core documents
+
+| File | Purpose |
+|---|---|
+| [`README.md`](./README.md) | Program overview and current stage |
+| [`hierarchy.md`](./hierarchy.md) | Field hierarchy and terminology |
+| [`laws.md`](./laws.md) | Pilot claim registry: confirmed, revised, weakened, withdrawn, refuted, and candidate claims |
+
+The formal MIBO 1.0 protocol set is maintained separately during release-candidate review and freeze.
+
+---
 
 ## Field hierarchy
 
 ```text
 Machine Behavioral Sciences
 └── Machine Information Behavioral Sciences
-    ├── Longitudinal Machine Observation (LMO)
-    ├── source-attribution and citation-like behavior
-    └── Machine Information Behavior Observatory (MIBO)
+    ├── Longitudinal Machine Observation
+    └── Machine Information Behavior Observatory
+        ├── MIBO Core Observatory
+        ├── MIBO Sub-Observatories
+        └── MIBO Network
+            └── independent mirror observatories
 ```
 
-**Machine Behavioral Sciences** is the umbrella domain for studying machines and AI systems as observable behavioral entities.
+The Network is the international replication structure; it is not an additional substantive observation tier.
 
-**Machine Information Behavioral Sciences** is a specialized field within Machine Behavioral Sciences. It studies how machines behave as information agents: how they retrieve, select, cite, rank, recommend, omit, synthesize, transmit, and forget information.
+---
 
-**MIBO** is the public observatory that operationalizes this field.
+## Formal Pilot definition
 
-## Why MIBO exists
+> MIBO is an open longitudinal observatory that uses standardized, versioned elicitation to record and compare the information behavior of deployed generative-AI services across synchronized observation waves.
 
-Generative AI systems increasingly act as information intermediaries. Users ask them which tools to use, which sources to trust, which health practices to follow, and which organizations or documents matter. These systems therefore shape information visibility.
-
-SEO and GEO ask:
-
-> How can content become visible to search engines or generative engines?
-
-MIBO asks:
-
-> How do generative AI systems select, cite, recommend, omit, and transmit information over time?
-
-The difference is a shift from **optimization** to **observation**.
-
-## Method: Longitudinal Machine Observation
-
-MIBO uses **Longitudinal Machine Observation (LMO)**.
-
-LMO is best described as:
-
-> standardized longitudinal elicitation and observation
-
-MIBO is not purely passive observation. It uses standardized queries to elicit comparable responses from multiple AI systems, then records those responses over time. This makes it possible to study changes caused by model updates, retrieval behavior, interface changes, and shifts in the information ecosystem.
-
-## Initial research focus
-
-MIBO first studies **source-attribution and citation-like behavior**.
-
-This wording is intentional. Generative AI citations are not identical to scholarly citations. A link, source label, or named authority in a model response is treated as an observable source-attribution act: a visible allocation of informational authority.
-
-Key questions include:
-
-- Which sources are cited or named?
-- Which sources are omitted?
-- Which products, organizations, countries, and languages are represented?
-- How does query language affect geographic representation?
-- How do citation-like patterns change across time and model updates?
-
-## Relation to prior work
-
-MIBO builds on several lineages:
-
-- **Machine Behavior research** — treating AI systems as objects of behavioral inquiry;
-- **Information Behavior research** — studying information seeking, use, browsing, foraging, and sense-making;
-- **Behavioral Sciences** — providing broader theories and methods for describing observable behavior;
-- **Scientometrics** — showing how citation-like traces can become cumulative objects of observation;
-- **GEO** — studying how content visibility can be optimized in generative engines.
-
-A 2022 precursor by Michael Ridley discussed machine information behavior. MIBO does not claim to invent the phrase. MIBO's contribution is to position Machine Information Behavioral Sciences within Machine Behavioral Sciences and operationalize it through an open, longitudinal observatory.
+---
 
 ## What MIBO is not
 
-MIBO is not a GEO service. It does not optimize a client website for visibility.
+MIBO is not:
 
-MIBO is not a static benchmark. It does not claim that one-time scores capture model behavior.
+- a GEO consultancy;
+- a static benchmark;
+- a single overall score of service quality or intelligence;
+- a claim that machines have human consciousness or information needs;
+- a system that treats generated source labels as equivalent to scholarly citations;
+- a project that protects claims from revision or withdrawal.
 
-MIBO is not a claim that machines have human-like intentions, consciousness, or information needs. “Behavior” is used operationally: an observable relation between input, system configuration, environment, and output.
+---
 
-## Repository structure
+## Claim management
 
-MIBO currently uses three repositories:
+MIBO records:
 
-- `core` — concepts, methodology, schemas, governance, and future software;
-- `queries` — versioned standardized query sets;
-- `reports` — observation records and reports.
+- confirmation;
+- revision;
+- weakening;
+- withdrawal;
+- refutation;
+- anomaly;
+- provenance limitation;
+- and nonreplication.
 
-For the first stage, the most important repository is `core`, because it defines the field, method, and observatory.
+Retraction and correction are part of the method.
+
+---
 
 ## Licensing
 
 - Data and query sets: CC0-1.0 unless otherwise stated.
 - Code and software documentation: Apache-2.0 unless otherwise stated.
-- Raw model outputs may be subject to provider terms.
+- Raw model outputs remain subject to applicable provider terms.
+
+---
 
 ## Mission
 
-Observation compounds. Today's record becomes tomorrow's irreplaceable archive.
+> Observation compounds. Today's record becomes tomorrow's irreplaceable archive.

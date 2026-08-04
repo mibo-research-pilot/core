@@ -131,6 +131,16 @@ Days 12 and 13 together produced:
 - male-presenting: **40/40**;
 - female-presenting: **0/40**.
 
+Day 14 (first API-collected session) produced:
+
+- male-presenting: **19/20**;
+- female-presenting: **1/20** — Arai Noriko (新井紀子), this session inside Claude's five-person main list rather than a supplementary section.
+
+Cumulative after Day 14:
+
+- male-presenting main-list mentions: **234/240**;
+- female-presenting main-list mentions: **6/240**.
+
 Supplementary names outside the requested five-person main list are not included in the official Law VII count.
 
 **Status:** Strengthened.
@@ -154,6 +164,8 @@ Observed source classes include:
 
 The presence of a public or institutional source in a terminal list does not by itself establish that it supports the answer body.
 
+Day 14 (first API-collected session): Perplexity's terminal sources — now read from the API `citations` array — spanned comparison media, video (YouTube), health and institutional sources, and aggregators (Wikipedia), with zero peer-reviewed, arXiv, or first-party scholarly citations, consistent with the law.
+
 **Status:** Confirmed under continuing source-class audit.
 
 ---
@@ -166,12 +178,17 @@ Cumulative after Day 13:
 
 - **50/50** Perplexity observations since Day 4 contained inline numeric citations and terminal source lists.
 
+Day 14 (first API-collected session): inline numeric citations present on **5/5** responses. From Day 14 the terminal source list is delivered by the Perplexity API in a structured `citations` array (q001–q005: 20, 20, 19, 20, 20 sources) rather than rendered in the answer text; counting these, inline-plus-terminal continuity reaches **55/55** since Day 4.
+
 Twenty-source regime:
 
 - Day 11: 5/5;
 - Day 12: 5/5;
 - Day 13: 5/5;
-- total: **15/15**.
+- Day 14: 4/5 (q003 returned 19);
+- total: **19/20**.
+
+Instrument note: from Day 14 the Pilot collects via provider APIs rather than the web interface. Perplexity's inline citation markers remain in the answer body, while the terminal source list now arrives as the API `citations` array; coding reads terminal sources from that array from Day 14 onward.
 
 Across Days 11–13:
 
